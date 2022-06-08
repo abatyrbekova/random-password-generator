@@ -62,7 +62,6 @@ h1.style.color = `rgba(
     ${Math.random()}
 )`;
 
-
 const lib = document.querySelector("#showMe");
 lib.style.fontFamily = "Covered By Your Grace";
 const randomHex = () => {
