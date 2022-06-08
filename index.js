@@ -47,6 +47,13 @@ div.style.height = '50vh';
 div.style.width = '70vw';
 div.style.border = 'solid 2px';
 
+const body = document.querySelector('body');
+body.style.height = '90vh';
+body.style.width = '90vw';
+body.style.display = 'flex';
+body.style.alignItems = 'center';
+body.style.justifyContent = 'center';
+
 const h1 = document.querySelector('h1');
 h1.style.color = `rgba(
     ${Math.floor(Math.random() * 255)},
