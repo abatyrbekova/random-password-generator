@@ -31,21 +31,21 @@ button.style.width = '12vw';
 button.style.fontSize = '2rem';
 button.style.borderRadius = '25px';
 
-const body = document.querySelector('body');
-body.style.backgroundColor = `rgba(
+const div = document.querySelector('div');
+div.style.backgroundColor = `rgba(
     ${Math.floor(Math.random() * 255)},
     ${Math.floor(Math.random() * 255)},
     ${Math.floor(Math.random() * 255)},
     ${Math.random()}
 )`;
-body.style.fontSize = '2rem';
-body.style.flexDirection = 'column';
-body.style.display = 'flex';
-body.style.alignItems = 'center';
-body.style.justifyContent = 'center';
-body.style.height = '50vh';
-// body.style.weight = '50vw';  // ???
-body.style.border = 'solid';
+div.style.fontSize = '2rem';
+div.style.flexDirection = 'column';
+div.style.display = 'flex';
+div.style.alignItems = 'center';
+div.style.justifyContent = 'center';
+div.style.height = '50vh';
+div.style.width = '70vw';
+div.style.border = 'solid 2px';
 
 const h1 = document.querySelector('h1');
 h1.style.color = `rgba(
@@ -57,7 +57,7 @@ h1.style.color = `rgba(
 
 
 const lib = document.querySelector("#showMe");
-// lib.style.fontFamily = "'Kalam', cursive"; // -?????
+lib.style.fontFamily = "Covered By Your Grace";
 const randomHex = () => {
     let result = [];
     let numAndStr = "1234567890ABCDEF";
